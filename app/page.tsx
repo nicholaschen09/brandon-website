@@ -96,7 +96,7 @@ export default function Home() {
           <li>
             <span className="text-gray-400 mr-2">•</span>
             <Link 
-              href="mailto:brandon@example.com"
+              href="mailto:b96wu@uwaterloo.ca"
               className="text-blue-600 hover:text-blue-800"
             >
               Email
