@@ -3,13 +3,6 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="min-h-screen px-6 py-12 md:px-12 lg:px-24 max-w-3xl mx-auto">
-      {/* Navigation */}
-      <nav className="flex gap-6 mb-16 text-sm">
-        <Link href="/" className="font-medium text-gray-900">Home</Link>
-        <Link href="#experience" className="text-gray-500 hover:text-gray-900">Experience</Link>
-        <Link href="#projects" className="text-gray-500 hover:text-gray-900">Projects</Link>
-      </nav>
-
       {/* Header */}
       <section className="mb-12">
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 mb-6">
@@ -83,7 +76,7 @@ export default function Home() {
           <li>
             <span className="text-gray-400 mr-2">•</span>
             <Link 
-              href="https://github.com/brandonwu" 
+              href="https://github.com/blfwu" 
               target="_blank"
               className="text-blue-600 hover:text-blue-800"
             >
@@ -93,7 +86,7 @@ export default function Home() {
           <li>
             <span className="text-gray-400 mr-2">•</span>
             <Link 
-              href="https://www.linkedin.com/in/brandon-wu/" 
+              href="https://www.linkedin.com/in/blfwu/" 
               target="_blank"
               className="text-blue-600 hover:text-blue-800"
             >
